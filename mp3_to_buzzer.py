@@ -1,4 +1,4 @@
-# mp3_to_buzzer.py
+# github.com/OneDevelopmentPL
 import argparse
 import os
 import sys
@@ -6,11 +6,11 @@ import numpy as np
 from scipy.fft import rfft, rfftfreq
 from tqdm import tqdm
 
-# zamiast pydub importujemy python_audio pod alias audioop
+
 import audio.op as audioop
 import soundfile as sf
 
-# ====== ARGUMENTY ======
+
 parser = argparse.ArgumentParser(description="MP3 to Arduino/ESP32 Buzzer Converter")
 parser.add_argument("--input", required=True, help="Path to input MP3 file")
 group = parser.add_mutually_exclusive_group(required=True)
@@ -26,7 +26,6 @@ if not os.path.exists(args.input):
     sys.exit(1)
 
 print("[INFO] Loading audio...")
-# soundfile wczyta każdy plik wav/mp3 (via libsndfile + ffmpeg)
 samples, sample_rate = sf.read(args.input)
 samples = np.mean(samples, axis=1)  # mono
 
