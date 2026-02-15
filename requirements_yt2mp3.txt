@@ -1,2 +1,2 @@
-yt‑dlp>=2025.01.01
-cffi>=1.0
+yt‑dlp
+cffi
