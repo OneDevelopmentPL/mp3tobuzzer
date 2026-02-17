@@ -194,4 +194,4 @@ Inspired by hobbyist projects converting audio into microcontroller buzzer outpu
 
 ## 📜 License
 
-MIT © OneDevelopment
+MIT © 2026 OneDevelopment
