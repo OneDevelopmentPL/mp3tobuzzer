@@ -1,5 +1,9 @@
 # 🎵 mp3tobuzzer
 
+---
+
+# 17.02.2026 r. - there are problems with downloading YT videos via yt_dlp! Please use sites on Google
+
 **Convert YouTube or local MP3 audio into Arduino / ESP32 buzzer code.**
 
 This project allows you to download audio from YouTube and convert it into a sequence of frequencies that can be played on a buzzer connected to an Arduino or ESP32.
