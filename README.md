@@ -4,6 +4,7 @@
 
 This project allows you to download audio from YouTube and convert it into a sequence of frequencies that can be played on a buzzer connected to an Arduino or ESP32.
 
+## Made with ❤️ in ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ---
 
 ## 🧠 Features
