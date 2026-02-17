@@ -3,6 +3,7 @@
 ---
 
 # 17.02.2026 r. - there are problems with downloading YT videos via yt_dlp! Please use sites on Google
+# It was tested only in macOS!
 
 **Convert YouTube or local MP3 audio into Arduino / ESP32 buzzer code.**
 
